@@ -1035,12 +1035,6 @@ figure.effect-lexi figcaption::before {
     transform-origin: 50% 50%;
 }
 
-figure.effect-lexi:hover img {
-    opacity: 0.6;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
-}
-
 figure.effect-lexi h3 {
     text-align: left;
     -webkit-transition: -webkit-transform 0.35s;
@@ -1067,19 +1061,6 @@ figure.effect-lexi p {
     transform: translate3d(20px, 20px, 0);
     font-size: .8em;
     line-height: 1.8em;
-}
-
-figure.effect-lexi:hover figcaption::before {
-    opacity: 1;
-    -webkit-transform: scale3d(1, 1, 1);
-    transform: scale3d(1, 1, 1);
-}
-
-figure.effect-lexi:hover h3,
-figure.effect-lexi:hover p {
-    opacity: 1;
-    -webkit-transform: translate3d(0, 0, 0);
-    transform: translate3d(0, 0, 0);
 }
 
 /*-- //effect --*/
@@ -1776,7 +1757,7 @@ a.b-home:hover {
 /*--footer--*/
 
 footer {
-    background: url(../images/footer.jpg) no-repeat 0px 0px;
+    background-color: black;
     background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;

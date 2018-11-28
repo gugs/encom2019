@@ -8733,10 +8733,12 @@ button.bg-dark:focus {
 
 .text-left {
   text-align: left !important;
+  display: inline;
 }
 
 .text-right {
   text-align: right !important;
+  display: inline;
 }
 
 .text-center {
